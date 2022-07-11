@@ -261,6 +261,8 @@ class DataTypeParser(ElementParser):
                         modeRequestTypeMaps.append(modeRequestTypeMap)
                     else:
                         raise NotImplementedError(xmlElem.tag)
+            elif xmlElem.tag == 'DESC': 
+                pass
             else:
                 raise NotImplementedError(xmlElem.tag)
         if (name is None):
