@@ -264,6 +264,8 @@ class BehaviorParser(ElementParser):
                     pass #implement later
                 elif xmlElem.tag == 'DESC':
                     pass #implement later
+                elif xmlElem.tag == 'SW-ADDR-METHOD-REF':
+                    pass #implement later
                 else:
                     raise NotImplementedError(xmlElem.tag)
         runnableEntity = autosar.behavior.RunnableEntity(name, canBeInvokedConcurrently, symbol, parent)
