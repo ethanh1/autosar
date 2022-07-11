@@ -189,8 +189,8 @@ class BehaviorParser(ElementParser):
                     pass #implement later
                 elif xmlElem.tag == 'STATIC-MEMORYS':
                     pass #implement later
-                elif xmlElem.tag=='CONSTANT-VALUE-MAPPING-REFS'
-                pass
+                elif xmlElem.tag=='CONSTANT-VALUE-MAPPING-REFS':
+                    pass
                 else:
                     raise NotImplementedError(xmlElem.tag)
             return internalBehavior
