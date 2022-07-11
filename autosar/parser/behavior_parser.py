@@ -262,6 +262,8 @@ class BehaviorParser(ElementParser):
                     pass #implement later
                 elif xmlElem.tag == 'RUNS-INSIDE-EXCLUSIVE-AREA-REFS':
                     pass #implement later
+                elif xmlElem.tag == 'DISC':
+                    pass #implement later
                 else:
                     raise NotImplementedError(xmlElem.tag)
         runnableEntity = autosar.behavior.RunnableEntity(name, canBeInvokedConcurrently, symbol, parent)
