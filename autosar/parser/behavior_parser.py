@@ -262,7 +262,7 @@ class BehaviorParser(ElementParser):
                     pass #implement later
                 elif xmlElem.tag == 'RUNS-INSIDE-EXCLUSIVE-AREA-REFS':
                     pass #implement later
-                elif xmlElem.tag == 'DISC':
+                elif xmlElem.tag == 'DESC':
                     pass #implement later
                 else:
                     raise NotImplementedError(xmlElem.tag)
